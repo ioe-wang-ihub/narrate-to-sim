@@ -1,0 +1,6 @@
+carla==0.9.16
+pydantic==2.13.4
+annotated-types==0.8.0
+pydantic-core==2.46.4
+typing-extensions==4.16.0
+typing-inspection==0.4.4

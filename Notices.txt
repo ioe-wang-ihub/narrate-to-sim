@@ -1,0 +1,16 @@
+Copyright (C) 2026 The Regents of the University of Michigan
+Intelligence & Human Augmentation Lab
+
+Narrate-to-Sim
+Source license: GPL-3.0-or-later; see License.txt.
+Paper authors: Wei-Hsiang Lo, Jincheng Ye and Manhua Wang.
+See README.md and CITATION.cff for author credit and the public paper citation.
+
+Project: https://github.com/ioe-wang-ihub/narrate-to-sim
+Questions: https://github.com/ioe-wang-ihub/narrate-to-sim/issues
+
+The client dependency inventory and upstream notices are in
+addons/narrate_to_sim/Notices.txt. The six full upstream license copies in
+addons/narrate_to_sim/third_party_licenses/ retain their original terms.
+Preserve these notices, copyright statements and license texts when sharing
+the source. Original authoring and runner filenames are retained.

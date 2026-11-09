@@ -1,0 +1,75 @@
+Copyright (C) 2026 The Regents of the University of Michigan
+Intelligence & Human Augmentation Lab
+
+Narrate-to-Sim CARLA client add-on
+Paper authors: Wei-Hsiang Lo, Jincheng Ye and Manhua Wang.
+See README.md and ../../CITATION.cff for credit and the public paper citation.
+Questions: https://github.com/ioe-wang-ihub/narrate-to-sim/issues
+Source license: GPL-3.0-or-later; see License.txt and README.md.
+
+SCOPE
+
+This directory contains the lab-authored client, reused authoring UI/parser,
+scenario template, tests, launch scripts and documentation. Original SCANER
+and DReyeVR authoring and runner filenames remain unchanged. Only the
+documented stock-client entry point is supported.
+
+Dependencies below are downloaded separately by setup; their implementations
+are not vendored in this source tree. Copies of upstream notices are provided
+for reference under third_party_licenses/ and retain their original terms.
+Changing this client's license does not change those licenses.
+
+PYTHON DEPENDENCIES (requirements-stock.txt)
+
+carla 0.9.16 - MIT (Python API / CARLA source)
+Copyright (c) 2017 Computer Vision Center (CVC) at the Universitat Autonoma de
+Barcelona (UAB).
+https://github.com/carla-simulator/carla/blob/0.9.16/LICENSE
+Copy: third_party_licenses/CARLA-0.9.16.txt
+This MIT notice is not a license for Unreal Engine or all simulator assets.
+
+pydantic 2.13.4 - MIT
+Copyright (c) 2017 to present Pydantic Services Inc. and individual contributors.
+https://github.com/pydantic/pydantic
+Copy: third_party_licenses/pydantic-2.13.4.txt
+
+pydantic-core 2.46.4 - MIT
+Copyright (c) 2022 Samuel Colvin
+https://github.com/pydantic/pydantic-core
+Copy: third_party_licenses/pydantic-core-2.46.4.txt
+
+annotated-types 0.8.0 - MIT
+Copyright (c) 2022 the contributors
+https://github.com/annotated-types/annotated-types
+Copy: third_party_licenses/annotated-types-0.8.0.txt
+
+typing-extensions 4.16.0 - PSF-2.0
+Python Software Foundation; historical notices and terms are preserved in:
+  third_party_licenses/typing-extensions-4.16.0.txt
+https://github.com/python/typing_extensions
+
+typing-inspection 0.4.4 - MIT
+Copyright (c) Pydantic Services Inc. 2025 to present
+https://github.com/pydantic/typing-inspection
+Copy: third_party_licenses/typing-inspection-0.4.4.txt
+
+The five Python-package notices were copied from the pinned installed wheel
+distributions' .dist-info/licenses/LICENSE files. CARLA's notice was obtained
+from its upstream 0.9.16 tag. Re-check notices when upgrading dependencies;
+this inventory does not assert that every transitive native component in a
+future wheel has identical terms.
+
+SEPARATELY INSTALLED RUNTIME
+
+CPython 3.12 / standard-library Tkinter: Python Software Foundation License
+Version 2 and retained historical/component notices. Copyright Python Software
+Foundation and other contributors; see the full Python installation LICENSE.
+https://docs.python.org/3.12/license.html
+
+Tcl/Tk, included with the recommended full Windows Python installation, has
+its own permissive licenses and copyright notices. Those are supplied by the
+Python/Tcl/Tk distributor; no Tcl/Tk implementation is included here.
+https://www.tcl-lang.org/software/tcltk/license.html
+
+The user installs CARLA and its engine/assets independently under their
+respective terms.

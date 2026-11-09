@@ -1,0 +1,54 @@
+cff-version: "1.2.0"
+message: >-
+  If you use Narrate-to-Sim, please cite the paper given as the preferred
+  citation below. To cite the source-only client itself, use this metadata and
+  include the exact commit used. This repository contains the source client;
+  the paper describes the broader research platform.
+type: software
+version: "0.1.0"
+date-released: "2026-11-09"
+title: "Narrate-to-Sim: Source-Only CARLA Client"
+abstract: >-
+  Source-only client under addons/narrate_to_sim for Windows 10/11 x64,
+  full Python 3.12, stock CARLA 0.9.16 and Town04. Prompt-based scenario
+  authoring, explicit ego selection and scripted traffic playback.
+authors:
+  - family-names: "Lo"
+    given-names: "Wei-Hsiang"
+    affiliation: "University of Michigan"
+    orcid: "https://orcid.org/0009-0005-5328-382X"
+  - family-names: "Ye"
+    given-names: "Jincheng"
+    affiliation: "University of Michigan"
+    orcid: "https://orcid.org/0009-0006-1461-9199"
+  - family-names: "Wang"
+    given-names: "Manhua"
+    affiliation: "University of Michigan"
+    orcid: "https://orcid.org/0000-0002-4400-1393"
+repository-code: "https://github.com/ioe-wang-ihub/narrate-to-sim"
+license: "GPL-3.0-or-later"
+preferred-citation:
+  type: conference-paper
+  title: "Narrate-to-Sim: A Human Factors-Oriented Driving Simulator with Natural-Language-Supported Scenario Authoring"
+  authors:
+    - family-names: "Lo"
+      given-names: "Wei-Hsiang"
+      affiliation: "University of Michigan"
+      orcid: "https://orcid.org/0009-0005-5328-382X"
+    - family-names: "Ye"
+      given-names: "Jincheng"
+      affiliation: "University of Michigan"
+      orcid: "https://orcid.org/0009-0006-1461-9199"
+    - family-names: "Wang"
+      given-names: "Manhua"
+      affiliation: "University of Michigan"
+      orcid: "https://orcid.org/0000-0002-4400-1393"
+  doi: "10.1145/3828158.3833211"
+  url: "https://dl.acm.org/doi/10.1145/3828158.3833211"
+  collection-title: "Adjunct Proceedings of the 18th International Conference on Automotive User Interfaces and Interactive Vehicular Applications"
+  conference:
+    name: "AutomotiveUI Adjunct '26"
+  publisher:
+    name: "Association for Computing Machinery"
+  year: 2026
+  month: 9
